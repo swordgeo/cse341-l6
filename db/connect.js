@@ -1,6 +1,5 @@
 const dotenv = require('dotenv');
 dotenv.config();
-const MongoClient = require('mongodb').MongoClient;
 mongoose = require('mongoose');
 
 let _db;
@@ -10,7 +9,6 @@ const initDb = (callback) => {
     console.log('Db is already initialized!');
     return callback(null, _db);
   }
-  // MongoClient.connect(process.env.MONGODB_URI)
     mongoose.connect(process.env.MONGODB_URI)
     .then((client) => {
       _db = client;

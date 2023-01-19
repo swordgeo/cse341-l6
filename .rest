@@ -36,8 +36,7 @@ Content-Type: application/json
 DELETE http://localhost:3000/characters/63c8a591a14d9ca66d574139
 
 ###
-//this will overwrite EVERYTHING; we can't change one field at a time (yet)
-//Will even remove values we leave blank in PUT request
+//With PATCH we don't have to refill every field
 
 //Assignment demands I use 204 but that status won't let me set json messages
 //So don't freak out that we get no message - freak out if we DO
@@ -141,8 +140,7 @@ Content-Type: application/json
 DELETE https://cse341-l5.onrender.com/characters/63c8a39eff54365eb9eabb0f
 
 ###
-//this will overwrite EVERYTHING; we can't change one field at a time (yet)
-//Will even remove values we leave blank in PUT request
+//With PATCH we don't have to refill every field
 
 //Assignment demands I use 204 but that status won't let me set json messages
 //So don't freak out that we get no message - freak out if we DO

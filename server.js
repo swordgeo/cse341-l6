@@ -28,13 +28,7 @@ app
   .use('/', require('./routes'));
 
 
-
 //only if mongodb is connected do we listen
-
-//app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
-
-
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
@@ -43,4 +37,3 @@ mongodb.initDb((err, mongodb) => {
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
-

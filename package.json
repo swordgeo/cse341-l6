@@ -1,5 +1,5 @@
 {
-  "name": "cse341-l5",
+  "name": "cse341-l6",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000c\u0000s\u0000e\u00003\u00004\u00001\u0000\r\u0000 \u0000\r\u0000 \u0000\r\u0000 \u0000\r\u0000 \u0000u\u0000s\u0000e\u0000 \u0000n\u0000p\u0000m\u0000 \u0000i\u0000 \u0000t\u0000o\u0000 \u0000s\u0000t\u0000a\u0000r\u0000t\u0000 \u0000i\u0000t\u0000\r\u0000 \u0000t\u0000h\u0000e\u0000n\u0000 \u0000n\u0000p\u0000m\u0000 \u0000s\u0000t\u0000a\u0000r\u0000t\u0000\r\u0000 \u0000h\u0000t\u0000t\u0000p\u0000:\u0000/\u0000/\u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000:\u00003\u00000\u00000\u00000\u0000\r\u0000 \u0000",
   "main": "server.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swordgeo/cse341-l5.git"
+    "url": "git+https://github.com/swordgeo/cse341-l6.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swordgeo/cse341-l5/issues"
+    "url": "https://github.com/swordgeo/cse341-l6/issues"
   },
-  "homepage": "https://github.com/swordgeo/cse341-l5#readme",
+  "homepage": "https://github.com/swordgeo/cse341-l6#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",

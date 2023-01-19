@@ -1,9 +1,5 @@
-// const { Router } = require('express');
 const express = require('express');
 const routes = express.Router();
-const Character = require('../models/character');
-
-
 
 const charactersController = require('../controllers/characters');
 
@@ -14,4 +10,3 @@ routes.patch('/:id', charactersController.editCharacter);
 routes.delete('/:id', charactersController.delCharacter);
 
 module.exports = routes;
-
