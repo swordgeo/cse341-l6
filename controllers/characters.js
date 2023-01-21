@@ -71,10 +71,10 @@ const delCharacter = async (req, res, next) => {
 
 const editCharacter = async (req, res, next) => {
   try {
-    const character = await Character.findByIdAndUpdate(req.params.id, req.body, { new: true })
+    const character = await Character.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!character) {
       //404 means does not exist
-      return res.status(404).send("No Character found.")
+      return res.status(404).send("No Character found.");
     }
     //204 succeeds but doesn't navigate away
     //The relevant circumstance is I can't run json messages from it

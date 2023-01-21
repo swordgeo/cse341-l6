@@ -15,9 +15,9 @@ const getPlayers = async (req, res, next) => {
 const getPlayer = async (req, res, next) => { 
   try {
     const player = await Player.findById(req.params.id);
-    if (!character) {
+    if (!player) {
       // 404 means does not exist
-      res.status(404).json({message: "Can't find this character."});
+      res.status(404).json({message: "Can't find this player."});
       return;
     }
     res.status(200).json(player);
@@ -69,15 +69,15 @@ const delPlayer = async (req, res, next) => {
 
 const editPlayer = async (req, res, next) => {
   try {
-    const player = await Player.findByIdAndUpdate(req.params.id, req.body, { new: true })
+    const player = await Player.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!player) {
       //404 means does not exist
-      return res.status(404).send("No player found.")
+      return res.status(404).send("No player found.");
     }
     //204 succeeds but doesn't navigate away
     //The relevant circumstance is I can't run json messages from it
     //But I'll leave it anyway or else it won't give me any response at all?!
-    res.status(204).send(player)
+    res.status(204).send(player);
   } catch(err) {
     res.status(500).send(err)
   }

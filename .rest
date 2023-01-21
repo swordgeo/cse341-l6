@@ -67,7 +67,7 @@ GET http://localhost:3000/players/
 ###
 GET http://localhost:3000/players/63c88ff5b0b091bd98329493
 ###
-GET http://localhost:3000/players/63c460951020ab4635d1bf7b
+GET http://localhost:3000/players/63cc3ae297a833a4c91e920e
 ###
 GET http://localhost:3000/players/63cc182c9547e289f6282060
 ###
@@ -81,9 +81,9 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/players/63c8760927254bd691c7ad62
+DELETE http://localhost:3000/players/63cc3ae297a833a4c91e920e
 ###
-PATCH http://localhost:3000/players/63cc182c9547e289f6282060
+PATCH http://localhost:3000/players/63cc3ae297a833a4c91e920e
 Content-type: application/json
 
 {
@@ -175,21 +175,21 @@ GET http://cse341-l6.onrender.com/players/63c460951020ab4635d1bf7a
 ###
 GET http://cse341-l6.onrender.com/players/63c460951020ab4635d1bf7b
 ###
-GET http://cse341-l6.onrender.com/players/63c8a0fb0ddf85957df7e854
+GET http://cse341-l6.onrender.com/players/63cc3977dfea037fdc675af4
 ###
 POST http://cse341-l6.onrender.com/players/
 Content-Type: application/json
 
 {
-"playerName": "Ross",
-"characterName": "Balthazar",
-"campaign": "Eberron"
+  "playerName": "Ross",
+  "characterName": "Balthazar",
+  "campaign": "Eberron"
 }
 
 ###
 DELETE http://cse341-l6.onrender.com/players/63c8a0fb0ddf85957df7e854
 ###
-PATCH http://cse341-l6.onrender.com/players/63c8a0fb0ddf85957df7e854
+PATCH http://cse341-l6.onrender.com/players/63cc3977dfea037fdc675af4
 Content-type: application/json
 
 {
