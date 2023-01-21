@@ -10,7 +10,7 @@ GET http://localhost:3000/characters/63c460951020ab4635d1bf7a
 ###
 GET http://localhost:3000/characters/63c460951020ab4635d1bf7b
 ###
-GET http://localhost:3000/characters/63c460951020ab4635d1bf7c
+GET http://localhost:3000/characters/63cc1584170874b7dc1e8bde
 ###
 POST http://localhost:3000/characters/
 Content-Type: application/json
@@ -23,7 +23,7 @@ Content-Type: application/json
   "level": "8",
   "alignment": "CG",
   "stats": {
-    "str": "8",
+    "str": "10",
     "dex": "10",
     "con": "14",
     "int": "12",
@@ -36,12 +36,12 @@ Content-Type: application/json
 DELETE http://localhost:3000/characters/63c8a591a14d9ca66d574139
 
 ###
-//With PATCH we don't have to refill every field
+//With PATCH we don't have to fill every field
 
 //Assignment demands I use 204 but that status won't let me set json messages
 //So don't freak out that we get no message - freak out if we DO
 
-PATCH http://localhost:3000/characters/63c8a5eda14d9ca66d574142
+PATCH http://localhost:3000/characters/63cc1584170874b7dc1e8bde
 Content-type: application/json
 
 {
@@ -69,7 +69,7 @@ GET http://localhost:3000/players/63c88ff5b0b091bd98329493
 ###
 GET http://localhost:3000/players/63c460951020ab4635d1bf7b
 ###
-GET http://localhost:3000/players/63c460951020ab4635d1bf7c
+GET http://localhost:3000/players/63cc182c9547e289f6282060
 ###
 POST http://localhost:3000/players/
 Content-Type: application/json
@@ -83,7 +83,7 @@ Content-Type: application/json
 ###
 DELETE http://localhost:3000/players/63c8760927254bd691c7ad62
 ###
-PATCH http://localhost:3000/players/63c8a608a14d9ca66d574147
+PATCH http://localhost:3000/players/63cc182c9547e289f6282060
 Content-type: application/json
 
 {
@@ -93,7 +93,9 @@ Content-type: application/json
 
 //End Players
 
+
 //------
+
 
 //Render
 
@@ -102,21 +104,21 @@ Content-type: application/json
 //AND REMEMBER TO TOSS IN .env DETAILS In Environment/Environment Variables
 
 ###
-GET https://cse341-l5.onrender.com/characters/
+GET https://cse341-l6.onrender.com/characters/
 
 //Individuals
 ###
-GET https://cse341-l5.onrender.com/characters/63c6b8ca2ea7c3daee5962b0
+GET https://cse341-l6.onrender.com/characters/63c6b8ca2ea7c3daee5962b0
 
 ###
 
-GET https://cse341-l5.onrender.com/characters/63b8bfd0d1eae2434d1851e0
+GET https://cse341-l6.onrender.com/characters/63b8bfd0d1eae2434d1851e0
 
 ###
-GET https://cse341-l5.onrender.com/characters/63b8bfd0d1eae2434d1851e1
+GET https://cse341-l6.onrender.com/characters/63b8bfd0d1eae2434d1851e1
 
 ###
-POST https://cse341-l5.onrender.com/characters/
+POST https://cse341-l6.onrender.com/characters/
 Content-Type: application/json
 
 {
@@ -137,7 +139,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE https://cse341-l5.onrender.com/characters/63c8a39eff54365eb9eabb0f
+DELETE https://cse341-l6.onrender.com/characters/63c8a39eff54365eb9eabb0f
 
 ###
 //With PATCH we don't have to refill every field
@@ -145,7 +147,7 @@ DELETE https://cse341-l5.onrender.com/characters/63c8a39eff54365eb9eabb0f
 //Assignment demands I use 204 but that status won't let me set json messages
 //So don't freak out that we get no message - freak out if we DO
 
-PATCH https://cse341-l5.onrender.com/characters/63c8a6622b5394fa536ceebe
+PATCH https://cse341-l6.onrender.com/characters/63c8a6622b5394fa536ceebe
 Content-type: application/json
 
 {
@@ -165,17 +167,17 @@ Content-type: application/json
 
 //Players
 ###
-GET http://cse341-l5.onrender.com/players/
+GET http://cse341-l6.onrender.com/players/
 
 //Individuals
 ###
-GET http://cse341-l5.onrender.com/players/63c460951020ab4635d1bf7a
+GET http://cse341-l6.onrender.com/players/63c460951020ab4635d1bf7a
 ###
-GET http://cse341-l5.onrender.com/players/63c460951020ab4635d1bf7b
+GET http://cse341-l6.onrender.com/players/63c460951020ab4635d1bf7b
 ###
-GET http://cse341-l5.onrender.com/players/63c8a0fb0ddf85957df7e854
+GET http://cse341-l6.onrender.com/players/63c8a0fb0ddf85957df7e854
 ###
-POST http://cse341-l5.onrender.com/players/
+POST http://cse341-l6.onrender.com/players/
 Content-Type: application/json
 
 {
@@ -185,9 +187,9 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://cse341-l5.onrender.com/players/63c8a0fb0ddf85957df7e854
+DELETE http://cse341-l6.onrender.com/players/63c8a0fb0ddf85957df7e854
 ###
-PATCH http://cse341-l5.onrender.com/players/63c8a0fb0ddf85957df7e854
+PATCH http://cse341-l6.onrender.com/players/63c8a0fb0ddf85957df7e854
 Content-type: application/json
 
 {
