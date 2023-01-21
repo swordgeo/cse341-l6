@@ -6,7 +6,7 @@
 GET http://localhost:3000/characters/
 //Individuals
 ###
-GET http://localhost:3000/characters/63c460951020ab4635d1bf7a
+GET http://localhost:3000/characters/63c460951020ab4635d1bf7b
 ###
 GET http://localhost:3000/characters/63c460951020ab4635d1bf7b
 ###
@@ -108,7 +108,7 @@ GET https://cse341-l6.onrender.com/characters/
 
 //Individuals
 ###
-GET https://cse341-l6.onrender.com/characters/63c6b8ca2ea7c3daee5962b0
+GET https://cse341-l6.onrender.com/characters/63c460951020ab4635d1bf7a
 
 ###
 

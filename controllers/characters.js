@@ -16,6 +16,11 @@ const getCharacters = async (req, res, next) => {
 const getCharacter = async (req, res, next) => {
   try {
     const character = await Character.findById(req.params.id);
+    if (!character) {
+      // 404 means does not exist
+      res.status(404).json({message: "Can't find this character."});
+      return;
+    }
     res.status(200).json(character);
   } catch (err) {
     //500 means server error, not user error
