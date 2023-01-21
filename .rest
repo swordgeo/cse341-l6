@@ -83,7 +83,7 @@ Content-Type: application/json
 ###
 DELETE http://localhost:3000/players/63cc3ae297a833a4c91e920e
 ###
-PATCH http://localhost:3000/players/63cc3ae297a833a4c91e920e
+PATCH http://localhost:3000/players/63cc3977dfea037fdc675af4
 Content-type: application/json
 
 {
@@ -147,7 +147,7 @@ DELETE https://cse341-l6.onrender.com/characters/63c8a39eff54365eb9eabb0f
 //Assignment demands I use 204 but that status won't let me set json messages
 //So don't freak out that we get no message - freak out if we DO
 
-PATCH https://cse341-l6.onrender.com/characters/63c8a6622b5394fa536ceebe
+PATCH https://cse341-l6.onrender.com/characters/63cc3b6e941e42104ffd3e8b
 Content-type: application/json
 
 {
@@ -194,7 +194,7 @@ Content-type: application/json
 
 {
   "characterName": "Leedler",
-  "campaign": "Sunrise Knights",
+  "campaign": "Sunrise Knights"
 }
 
 //End Players
